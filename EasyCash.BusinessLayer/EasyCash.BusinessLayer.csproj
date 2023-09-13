@@ -21,4 +21,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EasyCash.DataAcccesLayer\EasyCash.DataAcccesLayer.csproj" />
+    <ProjectReference Include="..\EasyCash.EntityLayer\EasyCash.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>
